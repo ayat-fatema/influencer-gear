@@ -76,7 +76,12 @@ color: white;
 }
 
 /* sponsers */
-
+.sponsers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 100px;
+    
+}
 
 
 /* responsive styles */
@@ -96,5 +101,19 @@ color: white;
         margin-left: 10px;}
     .banner-contant{
         text-align: center;
+    }
+    .sponsers{
+        flex-direction: column;
+        margin: 30px 20px;
+        align-items: center;
+        
+        
+    }
+    .sponsers img {
+        width: 50%;
+        /* border: 1px solid red; */
+       padding: 10px 0;
+        
+        
     }
 }
